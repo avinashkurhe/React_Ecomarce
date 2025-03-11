@@ -1,0 +1,99 @@
+/* Main container styling */
+.container {
+    margin-top: 50px;
+  }
+  
+  /* Centering the card layout */
+  .row.justify-content-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Product card styling */
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  /* Product image styling */
+  .product-img {
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Card body styling */
+  .card-body {
+    padding: 25px;
+  }
+  
+  /* Product title styling */
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Description styling */
+  .product-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Price section styling */
+  .product-price {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .discounted-price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  .discount-percentage {
+    font-size: 1rem;
+    color: #27ae60;
+  }
+  
+  /* Back button styling */
+  .back-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #2980b9;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Loading state */
+  .loading {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
