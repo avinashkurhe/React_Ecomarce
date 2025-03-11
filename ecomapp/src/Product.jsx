@@ -26,6 +26,9 @@ export default function Product() {
   return ( 
      
     <div className='container mt-3'> 
+    <div>
+    
+    </div>
       {/* <p>{counter}</p> 
       <button onClick={()=>{setCounter(counter+1)}}>change counter</button> */} 
       <div className='row'> 
